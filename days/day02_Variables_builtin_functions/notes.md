@@ -1,0 +1,1 @@
+Learned how to declare variables and follow proper naming rules (snake_case), Also used built in functions. 

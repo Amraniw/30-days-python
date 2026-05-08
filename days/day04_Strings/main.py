@@ -32,3 +32,13 @@ radius = 10
 pi = 3.14
 area = pi * radius ** 2
 formated_string = 'The area of a circle with a radius %d is %.2f.' %(radius, area) # 2 refers to 2 significant digits after the point
+
+# Strings as sequeneces of carachters
+language = 'Python'
+a,b,c,d,e,f = language
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)            

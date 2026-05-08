@@ -42,3 +42,18 @@ print(c)
 print(d)
 print(e)
 print(f)            
+
+language = 'Python'
+first_letter = language[0]
+print(first_letter)
+second_letter = language[1]
+print(second_letter)
+last_index = len(language) - 1
+last_letter = language[last_index]
+print(last_letter)
+
+language = 'Python'
+first_three = language[0:3]
+print(first_three)
+last_three = language[3:]
+print(last_three)

@@ -57,3 +57,6 @@ first_three = language[0:3]
 print(first_three)
 last_three = language[3:]
 print(last_three)
+
+greeting = 'Hello, world!'
+print(greeting[::-1])

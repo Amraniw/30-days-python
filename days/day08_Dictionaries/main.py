@@ -19,3 +19,16 @@ print(person['last_name'])
 print(person['skills'])
 print(person['skills'][1])
 print(person['adress']['street'])
+
+
+#Adding items 
+person['Job_title'] = 'Footballer'
+person['skills'].append('passes')
+print(person)
+
+#Removing 
+person.pop('first_name')        # Removes the firstname item
+person.popitem()                # Removes the address item
+del person['is_married']        # Removes the is_married item
+
+print(person.items())

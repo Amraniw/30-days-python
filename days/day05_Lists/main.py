@@ -44,3 +44,10 @@ fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.insert(2, 'apple') # lst.insert(index, item)
 fruits.remove('banana') # lst.remove(item)
 print(fruits)
+
+#Sorting list items
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.sort() #Sorts in alphabetical order
+print(fruits)
+fruits.sort(reverse=True) #Reversing the sorting order
+print(fruits)

@@ -45,3 +45,16 @@ country_lst_two = ['Algeria', 'France']
 countries = [*country_lst_one, *country_lst_two]
 print(countries)
 
+# Enumerate 
+sports = ['Soccer', 'Basketball', 'Football', 'Hockey']
+for index, i in enumerate(sports):
+    if i=='Football':
+        print(f'The sport {i} has been found at index {index}')
+
+# Zip
+fruits = ['banana', 'apple', 'orange', 'berries', 'kiwi']
+vegetables = ['Tomato', 'cucumber', 'potato', 'carrot', 'onion']
+fruits_and_vegies = []
+for f, v in zip(fruits, vegetables):
+    fruits_and_vegies.append({'fruits':f, 'veg':v})
+print(fruits_and_vegies)

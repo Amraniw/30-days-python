@@ -1,4 +1,4 @@
-PIP = Preferred installer program
+#PIP = Preferred installer program
 
 import webbrowser 
 
@@ -32,3 +32,5 @@ print(response)
 print(response.status_code) 
 countries = response.json()
 print(countries[:1])
+
+#practise api

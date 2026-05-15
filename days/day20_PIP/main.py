@@ -33,4 +33,4 @@ print(response.status_code)
 countries = response.json()
 print(countries[:1])
 
-#practise api
+#practise api 
